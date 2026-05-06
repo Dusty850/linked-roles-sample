@@ -8,9 +8,9 @@ const url = `https://discord.com/api/v10/applications/${config.DISCORD_CLIENT_ID
 // supported types: number_lt=1, number_gt=2, number_eq=3 number_neq=4, datetime_lt=5, datetime_gt=6, boolean_eq=7, boolean_neq=8
 const body = [
   {
-    key: 'is_test',
-    name: 'Test',
-    description: 'This is a test linked role tag',
+    key: 'is_management',
+    name: 'Management',
+    description: 'Management Staff Member',
     type: 7,
   },
 ];
